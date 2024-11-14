@@ -1,0 +1,53 @@
+<CARTA>
+    <GRUP>
+        <NOM>Entrants</NOM>
+        <PLAT>
+            <NOM>Sandwitch</NOM>
+            <DESCRIPCIO>Just bread with bread.</DESCRIPCIO>
+            <PREU>3.50</PREU>
+            <IMATGE>sandwitch.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>maybe</PICANTE>
+        </PLAT>
+        <PLAT>
+            <NOM>Stake.jpg</NOM>
+            <DESCRIPCIO>Meat on a wood board.</DESCRIPCIO>
+            <PREU>12.00</PREU>
+            <IMATGE>stake.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>No</PICANTE>
+        </PLAT>
+        <PLAT>
+            <NOM>Tonkatsu</NOM>
+            <DESCRIPCIO>meat but fried and crunchy.</DESCRIPCIO>
+            <PREU>11.00</PREU>
+            <IMATGE>tonkatsu.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>No</PICANTE>
+        </PLAT>
+        <PLAT>
+            <NOM>Takoyaki</NOM>
+            <DESCRIPCIO>Them balls of a octopus.</DESCRIPCIO>
+            <PREU>5.40</PREU>
+            <IMATGE>takoyaki.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>maybe</PICANTE>
+        </PLAT>
+        <PLAT>
+            <NOM>Fries</NOM>
+            <DESCRIPCIO>just fries.</DESCRIPCIO>
+            <PREU>2.00</PREU>
+            <IMATGE>fries.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>some</PICANTE>
+        </PLAT>
+        <PLAT>
+            <NOM>Rice with Gambas</NOM>
+            <DESCRIPCIO>rice with gambas just rice with gambas, but a really good one.</DESCRIPCIO>
+            <PREU>21.40</PREU>
+            <IMATGE>ricegambas.jpg</IMATGE>
+            <ALERGENOS>Ninguno</ALERGENOS>
+            <PICANTE>slight</PICANTE>
+        </PLAT>
+    </GRUP>
+</CARTA>

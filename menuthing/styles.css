@@ -1,0 +1,171 @@
+/* Base Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #f4f4f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Style */
+.menu-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-header h1 {
+    font-size: 2.5em;
+    color: #b83b5e;
+}
+
+.menu-header .subtitle {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Menu Container Style */
+#menu-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Group (GRUP) Style */
+.GRUP {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f4c4a3;
+    padding-bottom: 10px;
+}
+
+.GRUP .NOM {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #6a0572;
+    margin-bottom: 15px;
+}
+
+/* Special Banner Style */
+.special-banner {
+    background-color: #ffd700;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Plate (PLAT) Style */
+.PLAT {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.PLAT .NOM {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.PLAT .DESCRIPCIO {
+    font-size: 0.95em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Dish Price and Availability */
+.PLAT .PREU {
+    font-weight: bold;
+    color: #b83b5e;
+    font-size: 1em;
+    margin-top: 8px;
+    align-self: flex-end;
+}
+
+.PLAT .availability {
+    font-size: 0.85em;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.PLAT.unavailable .availability {
+    color: #e57373;
+}
+
+/* Menu Image Style */
+.menu-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer Style */
+.menu-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.menu-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.menu-item .content {
+    z-index: 2;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.menu-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
